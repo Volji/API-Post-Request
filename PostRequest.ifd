@@ -1,0 +1,205 @@
+{
+  "kind": "discovery#restDescription",
+  "discoveryVersion": "v1",
+  "id": "PostRequest:v1",
+  "name": "PostRequest",
+  "version": "v1.2.7",
+  "title": "PostRequest",
+  "if.category": "Http request",
+  "description": "PostRequest",
+  "protocol": "js",
+  "basePath": "PostRequest",
+  "if.dependencies": [
+    "PostRequest.js"
+  ],
+  "schemas": {
+    "PostRequest": {
+      "id": "PostRequest",
+      "title": "PostRequest",
+      "type": "object",
+      "description": "PostRequest"
+    }
+  },
+  "resources": {
+    "PostRequest": {
+      "id": "PostRequest",
+      "if.interfaceAsset": true,
+      "title": "PostRequest",
+      "description": "PostRequest",
+      "methods": {
+        "sendJson": {
+          "id": "PostRequest.sendJson",
+          "path": "sendJson",
+          "title": "Post JSON",
+          "description": "Send a POST Http request with raw JSON body.",
+          "response": {
+            "type": "none"
+          },
+          "parameters": {
+            "url": {
+              "type": "string",
+              "title": "Request URL",
+              "description": "Request URL",
+              "required": true
+            },
+            "authorization": {
+              "type": "string",
+              "title": "Authorization",
+              "description": "Authorization header",
+              "required": true
+            },
+            "body": {
+              "type": "string",
+              "title": "Body",
+              "description": "Body",
+              "required": true
+            }
+          }
+        },
+        "sendValues": {
+          "id": "PostRequest.sendValues",
+          "path": "sendValues",
+          "title": "Post values",
+          "description": "Send a POST Http request with the given values as body.",
+          "response": {
+            "type": "none"
+          },
+          "parameters": {
+            "url": {
+              "type": "string",
+              "title": "Request URL",
+              "description": "Request URL",
+              "required": true
+            },
+            "authorization": {
+              "type": "string",
+              "title": "Authorization",
+              "description": "Authorization header",
+              "required": true
+            },
+            "key1": {
+              "type": "string",
+              "title": "First field name",
+              "description": "First field name",
+              "required": true
+            },
+            "value1": {
+              "type": "string",
+              "title": "First field value",
+              "description": "First field value",
+              "required": true
+            },
+            "key2": {
+              "type": "string",
+              "title": "Second field name",
+              "description": "Second field name",
+              "required": true
+            },
+            "value2": {
+              "type": "string",
+              "title": "Second field value",
+              "description": "Second field value",
+              "required": true
+            },
+            "key3": {
+              "type": "string",
+              "title": "Third field name",
+              "description": "Third field name",
+              "required": true
+            },
+            "value3": {
+              "type": "string",
+              "title": "Third field value",
+              "description": "Third field value",
+              "required": true
+            },
+            "key4": {
+              "type": "string",
+              "title": "Fourth field name",
+              "description": "Fourth field name",
+              "required": true
+            },
+            "value4": {
+              "type": "string",
+              "title": "Fourth field value",
+              "description": "Fourth field value",
+              "required": true
+            },
+            "key5": {
+              "type": "string",
+              "title": "Fifth field name",
+              "description": "Fifth field name",
+              "required": true
+            },
+            "value5": {
+              "type": "string",
+              "title": "Fifth field value",
+              "description": "Fifth field value",
+              "required": true
+            },
+            "key6": {
+              "type": "string",
+              "title": "Sixth field name",
+              "description": "Sixth field name",
+              "required": true
+            },
+            "value6": {
+              "type": "string",
+              "title": "Sixth field value",
+              "description": "Sixth field value",
+              "required": true
+            },
+            "key7": {
+              "type": "string",
+              "title": "Seventh field name",
+              "description": "Seventh field name",
+              "required": true
+            },
+            "value7": {
+              "type": "string",
+              "title": "Seventh field value",
+              "description": "Seventh field value",
+              "required": true
+            },
+            "key8": {
+              "type": "string",
+              "title": "Eighth field name",
+              "description": "Eighth field name",
+              "required": true
+            },
+            "value8": {
+              "type": "string",
+              "title": "Eighth field value",
+              "description": "Eighth field value",
+              "required": true
+            },
+            "key9": {
+              "type": "string",
+              "title": "Ninth field name",
+              "description": "Ninth field name",
+              "required": true
+            },
+            "value9": {
+              "type": "string",
+              "title": "Ninth field value",
+              "description": "Ninth field value",
+              "required": true
+            },
+            "key10": {
+              "type": "string",
+              "title": "Tenth field name",
+              "description": "Tenth field name",
+              "required": true
+            },
+            "value10": {
+              "type": "string",
+              "title": "Tenth field value",
+              "description": "Tenth field value",
+              "required": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

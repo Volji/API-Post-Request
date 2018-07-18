@@ -1,2 +1,1 @@
-# API-Post-Request
-Interface Asset to use POST Method (with multicomplex JSON)
+This Interface Asset can be used in IntuiFace to send HTTP request with raw JSON body
